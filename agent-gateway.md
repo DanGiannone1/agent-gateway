@@ -1,7 +1,7 @@
 # Agent Gateway
 
 ## Overview
-The Agent Gateway is a FastAPI service that provides a secure interface between frontend applications and the agent event system. It handles Server-Sent Events (SSE) streaming, message validation, and reliable delivery of agent events to clients. It is a core component of the event-driven, micro-agent architecture outlined here (link coming soon).
+The Agent Gateway is a FastAPI service that provides a secure interface between frontend applications and the agent event system. It handles Server-Sent Events (SSE) streaming, message validation, and reliable delivery of agent events to clients. It is a core component of the event-driven, micro-agent architecture. outlined here (link coming soon).
 
 ## Core Features
 - SSE streaming of agent events

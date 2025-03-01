@@ -15,7 +15,10 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 # FastAPI app
-app = FastAPI(title="Agent Gateway")
+app = FastAPI(title="Agent Gateway",
+              description="The Agent Gateway is a FastAPI service that provides a secure interface between frontend applications and the agent event system. It handles Server-Sent Events (SSE) streaming, message validation, and reliable delivery of agent events to clients. It is a core component of the event-driven, micro-agent architecture.",
+              version="1.0.0"
+)
 
 # Add CORS middleware (adjust origins as needed)
 app.add_middleware(
